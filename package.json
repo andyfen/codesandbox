@@ -1,19 +1,11 @@
 {
-  "name": "codesandbox",
-  "version": "1.0.0",
-  "description": "JavaScript example starter project",
-  "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "npx http-server"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": [
-    "javascript",
-    "starter"
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
   ]
 }
