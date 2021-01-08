@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "serve src"
+    "start": "node index.js"
   },
   "licenses": [
     {
@@ -9,6 +9,6 @@
     }
   ],
   "dependencies": {
-    "serve": "^11.3.2"
+    "express": "^4.17.1"
   }
 }
